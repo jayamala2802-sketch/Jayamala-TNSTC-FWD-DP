@@ -1,0 +1,251 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: "Arial", sans-serif;
+
+  line-height: 1.6;
+
+  color: #333;
+
+  background: #f9f9f9;
+
+}
+
+/* Navbar */
+
+header {
+
+  background: #4b6cb7;
+
+  background: linear-gradient(to right, #182848, #4b6cb7);
+
+  padding: 15px 20px;
+
+}
+
+.logo {
+
+  color: #fff;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 20px;
+
+}
+
+.nav-links a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+.nav-links a:hover {
+
+  color: #ffd700;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+  height: 90vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+
+              url("https://images.unsplash.com/photo-1522075469751-3a6694fb2f61") no-repeat center/cover;
+
+  color: #fff;
+
+}
+
+.hero-text h2 {
+
+  font-size: 40px;
+
+}
+
+.hero-text span {
+
+  color: #ffd700;
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  background: #ffd700;
+
+  color: #000;
+
+  font-weight: bold;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+
+}
+
+.btn:hover {
+
+  background: #ffa500;
+
+}
+
+/* About Section */
+
+.about, .skills, .contact {
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.about p {
+
+  max-width: 700px;
+
+  margin: 20px auto;
+
+  font-size: 18px;
+
+}
+
+/* Skills Section */
+
+.skill-cards {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+.card {
+
+  background: #fff;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+  flex: 1 1 200px;
+
+  transition: transform 0.3s;
+
+}
+
+.card:hover {
+
+  transform: scale(1.05);
+
+}
+
+/* Contact Section */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+input, textarea {
+
+  padding: 12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  outline: none;
+
+}
+
+button {
+
+  cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #182848;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding: 15px 0;
+
+  margin-top: 40px;
+
+}
